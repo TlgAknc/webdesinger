@@ -1,0 +1,663 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style-type: none;
+}
+::selection{
+	color:red;
+}
+header{
+
+	max-width: 100%;
+	height: 60px;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #2A53C1;
+
+}
+.logo{
+	width: 50px;
+	height: 65px;
+	margin: 10px 15px;
+}
+.logo img{
+	width: 80%;
+	padding: 12px;
+}
+.menu{
+	width: 40%;
+	display: flex;
+	font-size: 19px;
+	padding: 5px;
+	margin: 15px;	
+}
+.menu li a{
+	margin-left: 35px;
+	color: white;
+	font-weight: bold;
+	font-family: vintage;
+}
+.social{
+	margin-left: auto;
+	width: 13%;
+	height: 50px;
+	display: flex;	
+}
+.social i{
+
+	padding: 5px;
+	margin-left: 15px;
+	margin-top: 7px;
+	font-size: 22px;
+	color: white;
+
+}
+.menu li a:hover{
+	border-radius: 5px;
+	transition: 0.7s;
+	color: #2A53C1;
+	background-color:white;
+}
+.social li a i:hover{
+	border-radius: 8px;
+	transition: 0.7s;
+	color: #2A53C1;
+	background-color:white;
+}
+.ustbaslik{
+	width: 100%;
+	height: 165px;
+	display: flex;
+	background-color: white;
+
+}
+.ustbaslik h1 {
+	margin-top:5px;
+	margin-left: 105px;
+	margin-right: 15px;
+	font-weight: bold;
+	font-size: 130px;
+	color: #1c377f;
+}
+.ustbaslik p:first-child{
+	margin-top: 65px;
+
+}
+.ustbaslik p:last-child{
+	margin-left: 22px;	
+}
+.ustbaslik p{
+	margin-left: 12px;
+	margin-top: 3px;
+	font-size: 20px;
+	color: #1c377f;
+	font-weight: 800;
+}
+.head{
+	width: 99%;
+	height: 550px;	
+	position: relative;
+}
+.head .slidersm{
+	position: fixed;
+	width: 90%;  
+	height: 545px;
+	left: 100px;
+	position: absolute;
+}
+.slider{
+	position: absolute;
+	top:520px;
+	left: 180px;
+	background-color: #2A53C1;
+	width: 80%;
+	height: 50px;
+	color: white;
+	border-radius: 10px;	
+}
+.slider h3{
+	margin-left: 35px;
+	margin-top:10px;
+}
+.slider .marquee{
+	position: absolute;
+	width: 40%;}
+section{
+	width: 90%;
+	margin-left: 70px;
+}
+.haberler h1{
+	text-align:left;
+	color: #1c377f;
+	margin-bottom: 25px;
+	margin-top: 30px;
+}
+.haberler div img{
+	max-width: 100%;
+	height: 200px;;
+}
+.card{
+	text-align: center;
+	width: 320px;
+	height: 350px;
+	border:1px solid #1c377f;
+	display: inline-block;
+	color: #888;
+	margin:5px;
+}
+.haberbaslik{
+	color: #1c377f;
+	margin-top: 5px;
+	text-transform: capitalize;
+}
+.cardp{
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 8px;
+	color: #8e8888;
+}
+.cardtarih{
+	text-align: right;
+	margin-top: 12px;
+	margin-right: 5px;
+	color: #bebaba;
+}
+.footer{
+	margin-top: 30px;
+	width: 100%;
+	height: 350px;
+	background-color: #172A47;
+}
+.footleft{
+	float: left;
+	font-family:verdana;
+	width: 60%;
+	height: 330px;
+}
+.footright{
+	float: left;
+	height: 330px;
+	width: 40%;		
+}
+.habersubs h3{
+	color: white;
+	font-size: 25px;
+	width: 50%;
+	margin-left: 250px;
+	padding-top:100px;
+}
+.mail input[type=email]{
+	border:none;
+	border-bottom: 2px solid red;
+	background-color: #172A47;
+	font-size: 30px;
+	border-radius: 5px;
+	color: white;
+}
+.mail ::placeholder {
+	color: white;
+	font-size: 22px;
+}
+.mail{
+	margin-top: 50px;
+	margin-left: 250px;
+	width: 68%;
+}
+.mail [type=button]{
+	width: 100px;
+	height: 40px;
+	font-size: 16px;
+	margin-left: 5px;
+	padding-top: 5px;
+	background-color: #00008B;
+	border:none;
+	border-radius: 10%;
+	color :white;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: -1px;
+}
+.mail [type=button]:hover{
+	transition: 0.8s;
+	background-color: #172A47;
+}
+.sosyal{
+	width: 10%;
+	display: flex;
+	margin-top: 50px;
+	margin-left: 240px;
+}
+.sosyal i{
+	padding: 5px;
+	margin-left: 8px;
+	font-size: 18px;
+	color: white;
+}
+.footright .footermenu{
+	padding: 5px;
+	text-align: left;
+	text-transform: capitalize;
+	margin-top: 25px;
+}
+.footright li{
+	padding: 12px;
+}
+.footright li a{
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+	font-family:verdana;
+}
+.footright li a:hover{
+	transition: 0.8s;
+	border-bottom: 1px solid white;
+	border-radius: 20px;
+}
+.footer p{
+	text-align: center;
+	color: #eaded2;
+}
+.ilet{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	display: flex;
+	margin-top: 30px;
+}
+.leftilet{
+	width: 50%;
+	height: 300px;;
+}
+.leftilet strong{
+	position: absolute;
+	top:60px;
+	left: 280px;
+	font-size: 32px;
+	font-weight: bold;
+	width: 15%;
+	text-transform: capitalize;
+	color:  #264cb3;
+}
+.rightilet{
+	width: 50%;
+	height: 450px;
+	margin-top: 30px;
+}
+.rightilet .bilgiler {
+	display: flex;
+	width: 80%;
+	height: 80px;
+}
+.rightilet .iletmail{
+	margin-left: 15px;
+}
+.rightilet .iletmail b{
+	font-size: 17.5px;
+}
+.rightilet .iletmail p{
+	font-size: 14px;
+	color: #172A47;
+}
+.rightilet .iletmail p i{
+	padding-right: 5px;
+	color: #172A47;
+}
+.iletisimform{
+	width: 75%;
+	height: 380px;
+}
+.iletisimform form input{
+	width: 85%;
+	height: 30px;
+	margin-top: 15px;
+	border: 1px solid #ddd;
+}
+.iletisimform form input::placeholder{
+	font-size: 12px;
+	padding-left: 5px;
+	letter-spacing: 1px;
+}
+.iletisimform textarea{
+	resize: none;
+	width: 84%;
+	height: 150px;
+	margin-top: 15px;
+	border: 1px solid #ddd;
+	padding-left: 5px;
+	letter-spacing: 1px;
+}
+.iletisimform form input:last-child{
+	background-color: #2A53C1;
+	color: white;
+	height: 38px;
+}
+.iletisimform form input:hover{
+	border:3px solid #ddd;
+
+}
+.iletisimform form input:focus{
+	border:3px solid #ddd;
+	outline: none;
+}
+.iletisimform form textarea:hover{
+	border:3px solid #ddd;
+
+}
+.iletisimform form textarea:focus{
+	border:3px solid #ddd;
+	outline: none;
+}
+.hak{
+	width: 100%;
+	height: 500px;
+	margin-top: 35px;
+	display: flex;
+}
+.hak .lefthak{
+	width: 50%;
+	position: relative;
+}
+.hak .lefthak b{
+	position: absolute;
+	top:98px;
+	left: 250px;
+	font-size: 35px;
+	width: 50%;
+	color: #1c46bb;
+}
+.hak .righthak{
+	position: relative;
+	width: 50%;
+}	
+.hak .righthak p{
+	position: absolute;
+	width: 60%;
+	top: 80px;
+	letter-spacing: 1.5px;
+}
+.kadro{
+	width: 100%;
+	height: 600px;
+	display: flex;
+}	
+.kadro h1{
+	font-size: 45px;
+	color: #1c46bb;
+	margin-top: 20px;
+	margin-left: 130px;
+}
+.kadro .ekip{	
+	width: 20%;
+	height: 350px;
+	position: relative;
+	margin-top: 155px;
+	margin-left: 35px;
+}
+.kadro .ekip img{
+	width: 100%;
+	height: 350px;
+	border-radius: 15px;
+	position: absolute;
+	transition: all 0.7s;
+}
+.kadro .ekipbilgi{
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 185px;
+	display: none;
+}
+.kadro .ekipbilgi h3{
+	color: #1c46bb;
+	font-weight: bold;
+}
+.kadro .ekipbilgi p{
+	color: #3c61c7;
+	font-weight: 600; 
+}
+.kadro .ekip:hover .ekipbilgi{
+	display: block;
+}
+.kadro .ekip:hover img{
+	opacity: 0.3;
+	transform: scale(1.1);
+}
+.ustmenu{
+	width: 100%;
+	height: 50px;
+	background-color: #0E0C28;
+	display: flex;
+}
+.ustmenu h1{
+	width: 90%;
+	padding-top: 5px;
+	padding-left: 5px;
+	color:white;
+	text-align: left;
+}
+.ustmenu .cikis{
+	width: 8%;
+	text-align: right;
+	padding-top: 15px;
+	padding-right: 5px;
+}
+.ustmenu div a i{
+	color: white;
+}
+.adminmenu {
+	width: 10%;
+	height: 710px;
+	background-color: #0E0C28;
+	float: left;
+}
+.adminmenu ul li{
+	text-align: center;
+}
+.adminmenu ul li a i{
+	margin-top: 50px;
+	letter-spacing: 1px;
+	color: white;
+}
+.adminmenu ul li {
+	border-bottom:1px solid white;
+	
+}
+.iletable{
+width: 90%;
+z-index: 1;
+background-color: white;
+float: left;
+
+}
+.iletable tr th{
+	padding: 8px;
+	border: 1px solid #0E0C28;
+	border-top: none;
+}
+.iletable tr td{
+	padding: 8px;
+	border-bottom: 1px solid #0E0C28;
+}
+.zoom-in-out-box {
+	margin: 24px;
+	width: 50px;
+	height: 50px;
+	background: #f50057;
+	animation: zoom-in-zoom-out 1s ease;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+	0% {
+	  transform: scale(1, 1);
+	}
+	50% {
+	  transform: scale(1.5, 1.5);
+	}
+	100% {
+	  transform: scale(1, 1);
+	}
+  }
+
+.haberform{
+	font-size: 25px;;
+	width: 100%;
+	text-align: center;
+}
+.kategoriler{
+	display: flex;
+	margin-top: 15px;
+	justify-content: center;
+}
+.kategoriler li{
+	padding: 5px;
+	margin:5px;
+	
+}
+.kategoriler li a{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.3s;
+}
+.kategoriler li a:hover{
+	color: #2A53C1;
+}
+.sirahaber{
+	width: 100%;
+	margin-top: 52px;
+	display: grid;
+    place-items: center;
+}
+
+.sirahaber .conta{
+	width: 65%;
+	margin-top: 55px;
+}
+.sirahaber .conta a{
+	display: flex;
+}
+.sirahaber .conta a .habimg{
+	width: 450px;
+	height: 290px;
+}
+.sirahaber .conta a .habimg img{
+	width: 450px;
+	height: 290px;
+}
+
+.basicerik {
+	color: black;
+	margin:auto;
+	margin-left: 15px;
+	text-align: left;
+	transition: 0.3s;
+}
+.basicerik .baslikhab{
+	text-transform: capitalize;
+}
+.basicerik .icerik{
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.basicerik:hover{
+	color:  #1c46bb;
+}
+.habdetay {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    letter-spacing: 1.1px;
+}
+
+.habdetay .ort {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: 83%;
+}
+
+.habdetay .res {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.habdetay .res img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+.bos {
+    width: 10%;
+    height: 400px;
+    float: left;
+}
+.yzm {
+    margin-top: 30px;
+}
+.ort .sosyalmedya {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #b9b6b6;
+	border-bottom: 1px solid #b9b6b6;
+    margin-top: 10px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.ort .sosyalmedya li a {
+    color: black;
+}
+.ort .sosyalmedya li:not(:last-child) {
+    margin-right: 25px;
+}
+.ort .kategori {
+	color: #868383;
+    margin-left: auto;
+}
+
+main {
+	
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+	margin-top: 50px;
+}
+main form {
+    display: grid;
+    gap: 1em;
+}
+
+main label {
+    font-weight: bold;
+}
+
+main input[type="text"],
+main input[type="email"],
+main input[type="file"] {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+main button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    cursor: pointer;
+}
+main button:hover {
+    background-color: #2580b3;
+}
+
+
